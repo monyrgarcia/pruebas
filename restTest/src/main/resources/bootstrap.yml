@@ -1,0 +1,17 @@
+server:
+  port: ${ENV_CONF_SERVER_PORT:8085}
+  
+spring:
+  application:
+    name: restTest
+  cloud:
+    config:
+      allowOverride: true
+      overrideNone: true
+      overrideSystemProperties: false
+
+security:
+  ignored: /configuration/ui, /error, /public/, /swagger-ui.html, /webjars/, /swagger-resources, /v2/api-docs, /configuration/security, /health, /images/*
+
+
+  
