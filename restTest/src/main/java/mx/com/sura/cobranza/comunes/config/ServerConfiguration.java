@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * 
- * @Proyecto: ms-fc-comunes-service
+ * @Proyecto: resttest
  * @Paquete: mx.com.sura.cobranza.comunes.config
  * @Clase: ServerConfiguration.java.
  *

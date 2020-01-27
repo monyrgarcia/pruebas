@@ -14,14 +14,14 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * 
- * @Proyecto: ms-fc-comunes-service
+ * @Proyecto: resttest
  *
  * Clase de la configuracion del microservicio para catálogos generales
  * 
  * @version 1.0.0
  */
 @Configuration
-@ConfigurationProperties(prefix = "ms-fc-comunes-service")
+@ConfigurationProperties(prefix = "resttest")
 public class AppConfiguration implements WebMvcConfigurer {
 
 	/**

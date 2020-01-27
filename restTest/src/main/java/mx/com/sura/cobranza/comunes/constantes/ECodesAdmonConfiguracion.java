@@ -9,7 +9,7 @@
 package mx.com.sura.cobranza.comunes.constantes;
 
 /**
- * @Proyecto: ms-fc-comunes-service
+ * @Proyecto: resttest
  * @Paquete: mx.com.sura.cobranza.comunes.constantes
  * @Clase: ECodesAdmonConfiguracion.java.
  *

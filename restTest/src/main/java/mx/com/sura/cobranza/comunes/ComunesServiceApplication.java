@@ -21,7 +21,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * 
- * @Proyecto: ms-fc-comunes-service
+ * @Proyecto: resttest
  * @Paquete: mx.com.sura.cobranza.comunes
  * @Clase: ComunesServiceApplication.java.
  *
