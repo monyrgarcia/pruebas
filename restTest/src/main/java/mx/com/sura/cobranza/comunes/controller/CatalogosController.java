@@ -13,7 +13,7 @@ import mx.com.sura.cobranza.comunes.service.ICatalogosService;
 
 
 @RestController
-@RequestMapping("/api/test/catalogosgrales")
+//@RequestMapping("/api/test/catalogosgrales")
 public class CatalogosController {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(CatalogosController.class);
@@ -21,7 +21,7 @@ public class CatalogosController {
 	@Autowired
 	private ICatalogosService catalogosService;
 	
-	@RequestMapping(path = "/test", method = RequestMethod.GET)
+	@RequestMapping(path = "test", method = RequestMethod.GET)
 	public CatalogoDTO test() {
 		CatalogoDTO response = new CatalogoDTO();
 		response.setDescripcion("Test REST");
