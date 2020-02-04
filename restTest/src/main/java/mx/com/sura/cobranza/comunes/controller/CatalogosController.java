@@ -21,6 +21,12 @@ public class CatalogosController {
 	@Autowired
 	private ICatalogosService catalogosService;
 	
+    @RequestMapping("hello")
+    public String sayHello(){
+        return ("Hello, SpringBoot on Wildfly");
+    }
+    
+	
 	@RequestMapping(path = "test", method = RequestMethod.GET)
 	public CatalogoDTO test() {
 		CatalogoDTO response = new CatalogoDTO();
